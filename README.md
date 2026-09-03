@@ -27,8 +27,9 @@ Given a contract, the skill runs six steps:
 5. **Key passages explained** — the 3–5 clauses doing the most work, in plain language.
 6. **Output** — a single structured review with an overall 🟢/🟡/🔴 status and a list of anything that still needs verifying before the review can be relied on.
 
-The full logic, including the type-specific checklists, is in [`SKILL.md`](./SKILL.md). Where to check
-(or fetch, when a session has that tool) any citation it makes is in
+The full logic is in [`SKILL.md`](./SKILL.md); the type-specific red-flag checklists are in
+[`references/checklists/`](./references/checklists/), loaded at Step 4 for whichever type the contract
+turns out to be. Where to fetch (when a session has that tool) any citation it makes is in
 [`references/legal-sources.md`](./references/legal-sources.md).
 
 ## See it work — worked examples

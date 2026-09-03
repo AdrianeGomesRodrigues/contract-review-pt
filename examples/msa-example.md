@@ -45,11 +45,11 @@ processing of the client's customer data for testing/support (§3). Governed, pe
   (a "Payments" business name suggests possible e-money/payment-services licensing) pulls in sector
   rules that could flow down to Provider by contract is not answerable from this excerpt — worth
   asking directly.
-- **Governing law & jurisdiction** — Inferred as inconsistent, and on two separate axes. **Governing
-  law** (Rome I, Reg. (EC) No 593/2008): §18 selects German law for an agreement with a Portuguese
-  provider — a valid choice under Rome I, but one with real consequences for how §7 (liability) and §9
-  (IP) are interpreted and enforced. GDPR applies irrespective of this choice regardless (Art. 3 GDPR,
-  territorial scope). **Jurisdiction** (Brussels I bis, Reg. (EU) No 1215/2012): §18 is silent on which
+- **Governing law** (Rome I, Reg. (EC) No 593/2008) — Inferred, and consequential. §18 selects German
+  law for an agreement with a Portuguese provider — a valid choice under Rome I, but one with real
+  consequences for how §7 (liability) and §9 (IP) are interpreted and enforced. GDPR applies
+  irrespective of this choice regardless (Art. 3 GDPR, territorial scope).
+- **Jurisdiction** (Brussels I bis, Reg. (EU) No 1215/2012) — Inferred as a gap. §18 is silent on which
   court hears a dispute — a separate gap from the governing-law choice, not the same issue restated —
   see Red Flag #4.
 
@@ -62,6 +62,12 @@ processing of the client's customer data for testing/support (§3). Governed, pe
 | 3 | §3 — personal-data processing with no DPA referenced | Provider processes Client's customer data but no processing agreement is attached or required; this is a GDPR Art. 28 gap, not a formality. | Attach a DPA (or reference an executed one) before any processing begins. | 🔴 |
 | 4 | §18 — German governing law with no jurisdiction clause | The excerpt sets governing law (Rome I) but is silent on which court hears a dispute (Brussels I bis, Reg. (EU) No 1215/2012); combined with a Portuguese provider, this raises cost and uncertainty in any dispute. | Add an explicit jurisdiction clause, or reconsider governing law to match the provider's home jurisdiction if that better reflects negotiating leverage. | 🟡 |
 | 5 | §14 — asymmetric termination for convenience | Client can exit in 15 days for any reason; Provider can only exit for uncured breach. This is a common client-favouring term, not automatically improper, but it concentrates all schedule/revenue risk on Provider. | Either mirror the convenience-termination right (with a longer notice period, e.g. 30–60 days) or price the asymmetry into the commercial terms. | 🟡 |
+
+*Checklist coverage — remaining items: **payment terms** (§11) — 60 days is longer than the
+illustrative NET 30 (Rule 5) and no late-payment consequence is stated; noted, low risk on its own.
+**Cross-border hardware / CISG** — not applicable: the object is services only, excluded under
+Art. 3(2). **Individual "contractor" subordination** — not applicable: both parties are registered
+companies.*
 
 ### Key Passages Explained
 
@@ -86,17 +92,17 @@ processing. Recommend both are resolved, and the contract reviewed by counsel, b
 - Whether a DPA already exists as a separate, unreferenced document.
 - Exact interaction between §7's liability language and German mandatory law, which may itself limit
   or void a purported "unlimited liability" clause in ways this review cannot assess from PT law alone.
-- **Art. 280º CC** (cited above, not independently verified this session — no fetch tool used): the
+- **Art. 280º CC** (cited above, unverified — no fetch tool used): the
   object of a legal transaction must be physically and legally possible, lawful, and sufficiently
   determined or determinable, or the transaction is void.
-- **Art. 3 GDPR** (cited above, not independently verified this session — no fetch tool used): GDPR
+- **Art. 3 GDPR** (cited above, unverified — no fetch tool used): GDPR
   applies to processing by a controller/processor established in the EU regardless of where the
   processing takes place, and can also reach non-EU controllers/processors targeting or monitoring EU
   data subjects.
-- **DL n.º 252/94** (cited above, not independently verified this session — no fetch tool used): sets
+- **DL n.º 252/94** (cited above, unverified — no fetch tool used): sets
   Portugal's specific computer-program copyright regime (transposing Directive 91/250/EEC), governing
   who owns rights in software absent a clear contractual assignment.
-- **Reg. (EU) No 1215/2012 — Brussels I bis** (cited above, not independently verified this session —
+- **Reg. (EU) No 1215/2012 — Brussels I bis** (cited above, unverified —
   no fetch tool used): governs which EU member state's courts have jurisdiction over a cross-border
   contract dispute, and the cross-border enforcement of the resulting judgment — separate from which
   law governs the contract's substance (Rome I).
