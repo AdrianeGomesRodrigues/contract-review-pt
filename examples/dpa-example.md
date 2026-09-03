@@ -45,8 +45,10 @@ and audit — but several required elements are either thin or missing.
 - **Subjective eligibility** — Needs verification. Whether either party is established outside the
   EU/EEA, or uses infrastructure located outside it, isn't stated here and materially affects whether
   an international-transfer mechanism (§4/§7 gap, below) is actually required.
-- **Governing law & jurisdiction** — Not stated in this excerpt; needs confirming against the main
-  hosting agreement.
+- **Governing law** (Rome I, Reg. (EC) No 593/2008) — Not stated in this excerpt; needs confirming
+  against the main hosting agreement.
+- **Jurisdiction** (Brussels I bis, Reg. (EU) No 1215/2012) — Likewise not stated here; a separate
+  question from governing law, and separately unconfirmed.
 
 ### Red Flags
 
@@ -59,6 +61,12 @@ and audit — but several required elements are either thin or missing.
 | 5 | §10 — "commercially reasonable time" for deletion/return | Vague and unenforceable; data could persist well beyond what Controller expects or beyond what GDPR's storage-limitation principle supports. | Set a specific number of days (e.g. 30–90) for deletion or return after termination. | 🟡 |
 | 6 | §12 — audit right limited to "requesting information" | This falls short of GDPR Art. 28(3)(h), which requires the processor to make available information necessary to demonstrate compliance and allow for audits/inspections. | Add an actual audit/inspection right, which can be satisfied in practice by accepting a current SOC 2/ISO 27001 report plus a right to audit for cause. | 🟡 |
 | 7 | No international-transfer clause at all | If any sub-processor or infrastructure sits outside the EU/EEA, there's no stated transfer mechanism (SCCs, adequacy decision) — a gap, not a "not applicable." | Add a transfer clause, or an explicit statement that all processing stays within the EU/EEA if that's factually true. | 🔴 (if transfers occur) / 🟡 (until confirmed) |
+
+*Checklist coverage — remaining items: **documented instructions** (Art. 28(3)(a)), the
+**confidentiality commitment of authorised personnel** (Art. 28(3)(b)), and the **assistance
+obligations** for data-subject rights, breach support and DPIAs (Art. 28(3)(e)–(f), Arts. 35–36 GDPR)
+appear nowhere in this excerpt. Recorded as not shown rather than clean, and carried to Needs
+Verification pending the full addendum.*
 
 ### Key Passages Explained
 
@@ -81,9 +89,12 @@ niceties. Recommend this DPA is not executed as-is.
 - Whether Art. 9 special-category data (health data) is actually processed, which would raise the
   bar further (e.g. explicit consent or another Art. 9(2) condition, alongside the Art. 6 basis).
 - Whether any processing or sub-processing occurs outside the EU/EEA.
-- Governing law and jurisdiction, not visible in this excerpt.
-- **Art. 280º CC, 28(3), 32, 33, 9, 6, and 28(3)(h) GDPR** (all cited above): **not independently
-  verified this session — no fetch tool used.** Best-understanding restatements, to be checked against
+- Governing law and jurisdiction, neither visible in this excerpt.
+- The Art. 28(3) elements absent from this excerpt — documented instructions (a), the confidentiality
+  commitment of authorised personnel (b), and the assistance obligations (e)–(f) — need checking
+  against the full addendum before their absence is treated as a gap in the agreement itself.
+- **Art. 280º CC, 28(3), 32, 33, 9, 6, and 28(3)(h) GDPR** (all cited above): **unverified — no
+  fetch tool used.** Best-understanding restatements, to be checked against
   the source (see [`references/legal-sources.md`](../references/legal-sources.md)) before relying on
   the exact wording or paragraph numbering:
   - Art. 280º CC: the object of a legal transaction must be physically and legally possible, lawful,

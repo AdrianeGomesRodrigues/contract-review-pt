@@ -49,8 +49,10 @@ definition of confidential information, indefinite confidentiality term, a resid
 - **Subjective eligibility** — Established. Both parties are Portuguese commercial entities; no
   consumer, public-sector, or non-EU party is involved, so no additional regime beyond general
   contract law is triggered on this axis.
-- **Governing law & jurisdiction** — Established and internally consistent: Portuguese law, Coimbra
-  courts, matching both parties' apparent location.
+- **Governing law** (Rome I, Reg. (EC) No 593/2008) — Established. Portuguese law, matching both
+  parties' apparent location.
+- **Jurisdiction** (Brussels I bis, Reg. (EU) No 1215/2012) — Established and consistent with the
+  governing-law choice: exclusive jurisdiction of the Coimbra courts.
 
 ### Red Flags
 
@@ -60,6 +62,11 @@ definition of confidential information, indefinite confidentiality term, a resid
 | 2 | §4 — indefinite confidentiality term | An unlimited obligation is hard to manage operationally (nobody tracks it forever) and can be challenged as unreasonable in scope/duration if ever contested. | Set a defined term — 3–5 years post-disclosure is common practice for general business information; trade secrets can be carved out for indefinite protection specifically. | 🟡 |
 | 3 | §5 — residuals clause | This clause, combined with §1's broad definition, substantially undercuts the NDA's purpose: anything a person remembers (not just deliberately memorised) can be reused freely. For an investment-evaluation NDA where the disclosing party's core value may be its unaided-memory-transmissible know-how, this is a significant giveback — and to the extent that know-how would otherwise qualify as a trade secret under DL n.º 110/2018, a residuals clause this broad risks undercutting the "reasonable steps to keep it secret" element that regime itself requires, independent of what the NDA's contract text says. | Narrow or remove the residuals clause; if kept, restrict it to general skills/know-how and exclude anything resembling trade secrets or specific business/technical plans. | 🔴 |
 | 4 | §7 — non-solicitation embedded in an NDA | This is scope creep: a confidentiality agreement is being used to carry a restrictive covenant. It's not inherently improper, but it should be negotiated and understood as its own commitment, not waved through while reviewing "just an NDA." | Either move non-solicitation into its own clause reviewed on its own terms, or confirm both parties intend and understand it as a real 24-month restriction. | 🟡 |
+
+*Checklist coverage — remaining items: **mutual vs. one-way** — clean; a mutual shape fits a two-way
+investment evaluation where both sides disclose. **Trade-secrets regime (DL n.º 110/2018)** — raised
+within Red Flag #3 rather than separately. **Governing law and jurisdiction** — clean; both stated and
+mutually consistent.*
 
 ### Key Passages Explained
 
@@ -83,10 +90,10 @@ Recommend renegotiating §1 and §5 before signing.
 - Whether personal data (beyond general business information) will be part of what's exchanged.
 - Whether the residuals clause is standard practice for this counterparty/sector, or a non-standard
   ask worth pushing back on outright.
-- **Art. 280º CC** (cited above, not independently verified this session — no fetch tool used): the
+- **Art. 280º CC** (cited above, unverified — no fetch tool used): the
   object of a legal transaction must be physically and legally possible, lawful, and sufficiently
   determined or determinable, or the transaction is void.
-- **DL n.º 110/2018** (cited above, not independently verified this session — no fetch tool used):
+- **DL n.º 110/2018** (cited above, unverified — no fetch tool used):
   protects trade secrets where the holder has taken reasonable steps to keep the information secret
   and it has commercial value from not being generally known — a standard the NDA's own contractual
   definition of "confidential information" doesn't automatically satisfy just by being broadly worded.

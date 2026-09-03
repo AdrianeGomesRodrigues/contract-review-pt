@@ -1,9 +1,8 @@
 # Legal Sources Reference — PT & EU
 
-Where to check a citation this skill makes, or where to fetch it from directly if a web-fetch tool is
-available in the session (see Rule 1 in [`SKILL.md`](../SKILL.md)). Pointers only — the substantive
-checklist (what to check, what triggers what) lives in `SKILL.md` §6–7, not here, so the two don't
-drift out of sync.
+Where to fetch a citation this skill makes. Pointers only — the verification protocol is Rule 1 in
+[`SKILL.md`](../SKILL.md), and the substantive checklists live in `SKILL.md` §6 and
+[`checklists/`](./checklists/), so the two don't drift out of sync.
 
 ## Official sources
 
@@ -19,13 +18,3 @@ drift out of sync.
 - **CNPD** — https://www.cnpd.pt/ — Portugal's data-protection authority. Use for interpretive guidance
   where GDPR/Lei n.º 58/2019's own text doesn't settle a DPA question (breach-notification specifics,
   SCC practicalities, DPIA thresholds) — DRE/EUR-Lex give you the statute, not how it's applied.
-
-## How to use these sources
-
-- If a fetch tool is available in the session **and** a fetch to one of these sources succeeds with
-  text that clearly matches the cited instrument and article, cite it as verified this session and
-  give the URL fetched.
-- If fetch is unavailable, fails, or the retrieved text is ambiguous (wrong diploma, unclear
-  consolidation date, article renumbered), don't claim verification — name the instrument, flag
-  "verify exact article," and say so explicitly under Needs Verification. A citation never gets
-  labelled "verified" unless a fetch actually happened and returned matching content in that session.
